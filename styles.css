@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+}
+
+body * {
+  font-family: 'DM Sans';
+}
+
+#main-container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('background.jpg');
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(15, 0, 145, 0.315);
+}
+
+#main-form {
+  background-color: white;
+  width: 370px;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 480px;
+  padding-top: 68px;
+  padding-bottom: 22px;
+  text-align: center;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  border-radius: 10px;
+}
+
+h1 {
+  color: #1e0e62;
+  font-weight: bold;
+  font-size: 42px;
+  margin-top: 0;
+  margin-bottom: 53px;
+}
+
+.textbox {
+  width: 100%;
+  border-radius: 100px;
+  border: 2px solid #EBEAED;
+  padding-top: 18px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#email {
+  margin-bottom: 20px;
+}
+         
+#password {
+  margin-bottom: 10px;
+}
+
+#forgot-pass {
+  font-size: 16px;
+  color: #151439;
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+button {
+  background-color: #25DAC5;
+  color: white;
+  padding: 17px 84px;
+  border-radius: 100px;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+button:active {
+  opacity: 1;
+}
+
+hr {
+  margin-top: 60px;
+  margin-bottom: 21px;
+  border: 1px solid #EBEAED;
+}
+
+/* Don't have an account */
+#sign-up-container span:first-child {
+  font-size: 16px;
+  color: #151439;
+  opacity: 0.4;
+}
+
+/* Sign Up */
+#sign-up-container span:last-child {
+  font-size: 16px;
+  color: #482BE7;
+  cursor: pointer;
+}
